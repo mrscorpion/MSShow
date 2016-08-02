@@ -1,6 +1,11 @@
 platform :ios, '8.0'
-target "MSShow" do
-
+use_frameworks!
+def pods
 pod 'Gifu'
 end
+
+target 'MSShow' do
+pods
+end
+
 
