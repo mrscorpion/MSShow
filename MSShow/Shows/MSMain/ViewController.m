@@ -52,7 +52,7 @@ UITableViewDataSource
 - (NSArray *)data
 {
     if (!_data) {
-        _data = @[@[@"渐变圆弧进度动画", @"地图定位动画", @"加载动画", @"文字特效"],
+        _data = @[@[@"渐变圆弧进度动画", @"地图定位动画", @"加载动画", @"文字特效", @"播放Gif"],
                   @[@"聚光灯效果用户引导", @"搜索动画", @"仿KEEP应用引导页"]];
     }
     return _data;
@@ -120,6 +120,12 @@ UITableViewDataSource
                 case 3:
                 {
                     [self presentViewController:[[MSFadingText alloc] init] animated:YES completion:nil];
+                }
+                    break;
+                    
+                case 4:
+                {
+                    [self.navigationController pushViewController:[[MSGifVC alloc] init] animated:YES];
                 }
                     break;
                     

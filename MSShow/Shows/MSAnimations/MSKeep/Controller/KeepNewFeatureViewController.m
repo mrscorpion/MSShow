@@ -12,8 +12,10 @@
 //#import "LoginViewController.h"
 //#import "RegisterViewController.h"
 
-@interface KeepNewFeatureViewController ()<KeepNewFeatrueViewDelegate>
-
+@interface KeepNewFeatureViewController ()
+<
+KeepNewFeatrueViewDelegate
+>
 @property (nonatomic, strong) MPMoviePlayerController *moviePlayerController;
 @property (nonatomic, strong) KeepNewFeatrueView *keepView;
 @end
@@ -58,7 +60,6 @@
 //    LoginViewController *login = [[LoginViewController alloc] init];
 //    [self.navigationController pushViewController:login animated:YES];
     [self.navigationController popViewControllerAnimated:YES];
-    
 }
 // 注册
 - (void)keepNewFeatrueView:(nullable KeepNewFeatrueView *)keepNewFeatrueView didRegister:(nullable UIButton *)registerButton

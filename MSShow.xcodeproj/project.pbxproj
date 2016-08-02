@@ -39,6 +39,8 @@
 		A6FFCA2A1D50734A00531366 /* SwiftExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA291D50734A00531366 /* SwiftExtenstions.swift */; };
 		A6FFCA301D5073FC00531366 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA2D1D5073FC00531366 /* AppDelegate.m */; };
 		A6FFCA311D5073FC00531366 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA2F1D5073FC00531366 /* ViewController.m */; };
+		A6FFCA371D509A7300531366 /* MSGifVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA361D509A7300531366 /* MSGifVC.swift */; };
+		A6FFCA391D509AA200531366 /* cat-video.gif in Resources */ = {isa = PBXBuildFile; fileRef = A6FFCA381D509AA200531366 /* cat-video.gif */; };
 		EE2E3E2FD803E72B3555BE35 /* Pods_MSShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71705CE0A743ACA38EBB00F /* Pods_MSShow.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +103,8 @@
 		A6FFCA2D1D5073FC00531366 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A6FFCA2E1D5073FC00531366 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A6FFCA2F1D5073FC00531366 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6FFCA361D509A7300531366 /* MSGifVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGifVC.swift; sourceTree = "<group>"; };
+		A6FFCA381D509AA200531366 /* cat-video.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cat-video.gif"; sourceTree = "<group>"; };
 		E71705CE0A743ACA38EBB00F /* Pods_MSShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -151,6 +155,7 @@
 		A63AF15C1D50490B0084CE06 /* MSAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				A6FFCA321D509A4F00531366 /* MSGif */,
 				A6FFCA191D5071D800531366 /* MSFadingText */,
 				A63AF15D1D50490B0084CE06 /* MSKeep */,
 				A63AF1681D50490B0084CE06 /* MSLoadingDotsAnimation */,
@@ -372,6 +377,7 @@
 		A6772EA81D6A98BB008D0B74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A6FFCA381D509AA200531366 /* cat-video.gif */,
 				A6772EEA1D6AADCB008D0B74 /* keep.mp4 */,
 				A6772EB11D6A98BB008D0B74 /* Main.storyboard */,
 				A6772EB61D6A98BB008D0B74 /* LaunchScreen.storyboard */,
@@ -466,6 +472,38 @@
 			path = MSMain;
 			sourceTree = "<group>";
 		};
+		A6FFCA321D509A4F00531366 /* MSGif */ = {
+			isa = PBXGroup;
+			children = (
+				A6FFCA331D509A4F00531366 /* Controllers */,
+				A6FFCA341D509A4F00531366 /* Models */,
+				A6FFCA351D509A4F00531366 /* Views */,
+			);
+			path = MSGif;
+			sourceTree = "<group>";
+		};
+		A6FFCA331D509A4F00531366 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6FFCA361D509A7300531366 /* MSGifVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6FFCA341D509A4F00531366 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6FFCA351D509A4F00531366 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -557,6 +595,7 @@
 				A63AF19E1D5049F90084CE06 /* MSProgressVC.storyboard in Resources */,
 				A6772EB51D6A98BB008D0B74 /* Assets.xcassets in Resources */,
 				A63AF18C1D50490B0084CE06 /* LoadingDots.xib in Resources */,
+				A6FFCA391D509AA200531366 /* cat-video.gif in Resources */,
 				A6772EB31D6A98BB008D0B74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -631,6 +670,7 @@
 				A6FFCA271D5072CD00531366 /* MSFadingText.swift in Sources */,
 				A6FFCA251D5072B100531366 /* Quote.swift in Sources */,
 				A63AF1891D50490B0084CE06 /* KeepNewFeatrueView.m in Sources */,
+				A6FFCA371D509A7300531366 /* MSGifVC.swift in Sources */,
 				A63AF18F1D50490B0084CE06 /* SonarAnnotationView.swift in Sources */,
 				A63AF1921D50490B0084CE06 /* MSGuideView.m in Sources */,
 				A63AF1911D50490B0084CE06 /* MSSpotlightVC.m in Sources */,
