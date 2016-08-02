@@ -10,6 +10,9 @@
 		A63AF1481D502EED0084CE06 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1471D502EED0084CE06 /* MapViewController.swift */; };
 		A63AF14A1D502FCC0084CE06 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1491D502FCC0084CE06 /* Annotation.swift */; };
 		A63AF14C1D502FD80084CE06 /* SonarAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF14B1D502FD80084CE06 /* SonarAnnotationView.swift */; };
+		A63AF1531D5042C00084CE06 /* LoadingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1511D5042C00084CE06 /* LoadingDots.swift */; };
+		A63AF1541D5042C00084CE06 /* LoadingDots.xib in Resources */ = {isa = PBXBuildFile; fileRef = A63AF1521D5042C00084CE06 /* LoadingDots.xib */; };
+		A63AF1561D5042C60084CE06 /* MSLoadingDotsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1551D5042C60084CE06 /* MSLoadingDotsVC.swift */; };
 		A6772EAA1D6A98BB008D0B74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EA91D6A98BB008D0B74 /* main.m */; };
 		A6772EAD1D6A98BB008D0B74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EAC1D6A98BB008D0B74 /* AppDelegate.m */; };
 		A6772EB01D6A98BB008D0B74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EAF1D6A98BB008D0B74 /* ViewController.m */; };
@@ -42,6 +45,9 @@
 		A63AF1471D502EED0084CE06 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A63AF1491D502FCC0084CE06 /* Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 		A63AF14B1D502FD80084CE06 /* SonarAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonarAnnotationView.swift; sourceTree = "<group>"; };
+		A63AF1511D5042C00084CE06 /* LoadingDots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingDots.swift; sourceTree = "<group>"; };
+		A63AF1521D5042C00084CE06 /* LoadingDots.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingDots.xib; sourceTree = "<group>"; };
+		A63AF1551D5042C60084CE06 /* MSLoadingDotsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSLoadingDotsVC.swift; sourceTree = "<group>"; };
 		A6772EA51D6A98BA008D0B74 /* MSShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6772EA91D6A98BB008D0B74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6772EAB1D6A98BB008D0B74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +131,40 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A63AF14D1D50426A0084CE06 /* MSLoadingDotsAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF14E1D50426A0084CE06 /* Controllers */,
+				A63AF14F1D50426A0084CE06 /* Models */,
+				A63AF1501D50426A0084CE06 /* Views */,
+			);
+			path = MSLoadingDotsAnimation;
+			sourceTree = "<group>";
+		};
+		A63AF14E1D50426A0084CE06 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF1551D5042C60084CE06 /* MSLoadingDotsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A63AF14F1D50426A0084CE06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A63AF1501D50426A0084CE06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF1511D5042C00084CE06 /* LoadingDots.swift */,
+				A63AF1521D5042C00084CE06 /* LoadingDots.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A6772E9C1D6A98BA008D0B74 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +221,7 @@
 		A6772ECD1D6A9B5A008D0B74 /* Shows */ = {
 			isa = PBXGroup;
 			children = (
+				A63AF14D1D50426A0084CE06 /* MSLoadingDotsAnimation */,
 				A63AF1421D502EB10084CE06 /* MSMapLocationAnimation */,
 				A6772EDF1D6AADA3008D0B74 /* MSKeep */,
 				A6772EDB1D6AA4EC008D0B74 /* MSSearching */,
@@ -350,6 +391,7 @@
 				A6772EEB1D6AADCB008D0B74 /* keep.mp4 in Resources */,
 				A6772EB81D6A98BB008D0B74 /* LaunchScreen.storyboard in Resources */,
 				A6772EB51D6A98BB008D0B74 /* Assets.xcassets in Resources */,
+				A63AF1541D5042C00084CE06 /* LoadingDots.xib in Resources */,
 				A6772EB31D6A98BB008D0B74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A63AF1561D5042C60084CE06 /* MSLoadingDotsVC.swift in Sources */,
 				A6772EE91D6AADBB008D0B74 /* KeepNewFeatrueView.m in Sources */,
 				A6772EB01D6A98BB008D0B74 /* ViewController.m in Sources */,
 				A6772EF21D6AADF8008D0B74 /* KeepNewFeatureViewController.m in Sources */,
@@ -378,6 +421,7 @@
 				A6772EDA1D6A9BE9008D0B74 /* MSGuideView.m in Sources */,
 				A6772EDE1D6AA592008D0B74 /* MSScanningVC.m in Sources */,
 				A6772EAA1D6A98BB008D0B74 /* main.m in Sources */,
+				A63AF1531D5042C00084CE06 /* LoadingDots.swift in Sources */,
 				A63AF14A1D502FCC0084CE06 /* Annotation.swift in Sources */,
 				A6772ED71D6A9BBA008D0B74 /* MSSpotlightVC.m in Sources */,
 				A63AF14C1D502FD80084CE06 /* SonarAnnotationView.swift in Sources */,
@@ -510,7 +554,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MSShow/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -525,7 +569,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MSShow/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";

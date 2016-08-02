@@ -18,7 +18,6 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         }
     }
     
-    
     // MARK: - Properties
 //    @IBOutlet var mapView: MKMapView!
     var mapView: MKMapView?
@@ -45,7 +44,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         
         // Tap Dismiss
         let singleFingerTwo = UITapGestureRecognizer(target: self, action: #selector(dismiss))
-        singleFingerTwo.numberOfTapsRequired = 2
+        singleFingerTwo.numberOfTapsRequired = 4
         self.view.addGestureRecognizer(singleFingerTwo)
     }
 

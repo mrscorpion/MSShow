@@ -50,7 +50,7 @@ UITableViewDataSource
 - (NSArray *)data
 {
     if (!_data) {
-        _data = @[@[@"地图定位动画"],
+        _data = @[@[@"地图定位动画", @"加载动画"],
                   @[@"聚光灯效果用户引导", @"搜索动画", @"仿KEEP应用引导页"]];
     }
     return _data;
@@ -86,12 +86,12 @@ UITableViewDataSource
                 }
                     break;
                     
-//                case 1:
-//                {
-//                    [self presentViewController:[[MSScanningVC alloc] init] animated:YES completion:nil];
-//                }
-//                    break;
-//                    
+                case 1:
+                {
+                    [self presentViewController:[[MSLoadingDotsVC alloc] init] animated:YES completion:nil];
+                }
+                    break;
+//
 //                case 2:
 //                {
 //                    [self.navigationController pushViewController:[[KeepNewFeatureViewController alloc] init] animated:YES];
