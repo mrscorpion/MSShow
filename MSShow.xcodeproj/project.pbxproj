@@ -26,13 +26,19 @@
 		A63AF19A1D50498E0084CE06 /* Gallon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1991D50498E0084CE06 /* Gallon.swift */; };
 		A63AF19E1D5049F90084CE06 /* MSProgressVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63AF19D1D5049F90084CE06 /* MSProgressVC.storyboard */; };
 		A6772EAA1D6A98BB008D0B74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EA91D6A98BB008D0B74 /* main.m */; };
-		A6772EAD1D6A98BB008D0B74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EAC1D6A98BB008D0B74 /* AppDelegate.m */; };
-		A6772EB01D6A98BB008D0B74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EAF1D6A98BB008D0B74 /* ViewController.m */; };
 		A6772EB31D6A98BB008D0B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6772EB11D6A98BB008D0B74 /* Main.storyboard */; };
 		A6772EB51D6A98BB008D0B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6772EB41D6A98BB008D0B74 /* Assets.xcassets */; };
 		A6772EB81D6A98BB008D0B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6772EB61D6A98BB008D0B74 /* LaunchScreen.storyboard */; };
 		A6772EC31D6A98BB008D0B74 /* MSShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EC21D6A98BB008D0B74 /* MSShowTests.m */; };
 		A6772EEB1D6AADCB008D0B74 /* keep.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A6772EEA1D6AADCB008D0B74 /* keep.mp4 */; };
+		A6FFCA1F1D50725B00531366 /* CLMLayerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA1E1D50725B00531366 /* CLMLayerAnimation.swift */; };
+		A6FFCA221D5072AA00531366 /* CharacterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA201D5072AA00531366 /* CharacterLabel.swift */; };
+		A6FFCA231D5072AA00531366 /* FadingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA211D5072AA00531366 /* FadingLabel.swift */; };
+		A6FFCA251D5072B100531366 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA241D5072B100531366 /* Quote.swift */; };
+		A6FFCA271D5072CD00531366 /* MSFadingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA261D5072CD00531366 /* MSFadingText.swift */; };
+		A6FFCA2A1D50734A00531366 /* SwiftExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA291D50734A00531366 /* SwiftExtenstions.swift */; };
+		A6FFCA301D5073FC00531366 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA2D1D5073FC00531366 /* AppDelegate.m */; };
+		A6FFCA311D5073FC00531366 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA2F1D5073FC00531366 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,10 +80,6 @@
 		A63AF19F1D504DCC0084CE06 /* MSShow-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSShow-Bridging-Header.h"; sourceTree = "<group>"; };
 		A6772EA51D6A98BA008D0B74 /* MSShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6772EA91D6A98BB008D0B74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6772EAB1D6A98BB008D0B74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A6772EAC1D6A98BB008D0B74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A6772EAE1D6A98BB008D0B74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A6772EAF1D6A98BB008D0B74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A6772EB21D6A98BB008D0B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6772EB41D6A98BB008D0B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6772EB71D6A98BB008D0B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,6 +88,16 @@
 		A6772EC21D6A98BB008D0B74 /* MSShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSShowTests.m; sourceTree = "<group>"; };
 		A6772EC41D6A98BB008D0B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6772EEA1D6AADCB008D0B74 /* keep.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = keep.mp4; sourceTree = "<group>"; };
+		A6FFCA1E1D50725B00531366 /* CLMLayerAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLMLayerAnimation.swift; sourceTree = "<group>"; };
+		A6FFCA201D5072AA00531366 /* CharacterLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterLabel.swift; sourceTree = "<group>"; };
+		A6FFCA211D5072AA00531366 /* FadingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadingLabel.swift; sourceTree = "<group>"; };
+		A6FFCA241D5072B100531366 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		A6FFCA261D5072CD00531366 /* MSFadingText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSFadingText.swift; sourceTree = "<group>"; };
+		A6FFCA291D50734A00531366 /* SwiftExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtenstions.swift; sourceTree = "<group>"; };
+		A6FFCA2C1D5073FC00531366 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6FFCA2D1D5073FC00531366 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6FFCA2E1D5073FC00531366 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6FFCA2F1D5073FC00531366 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,7 @@
 		A63AF15C1D50490B0084CE06 /* MSAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				A6FFCA191D5071D800531366 /* MSFadingText */,
 				A63AF15D1D50490B0084CE06 /* MSKeep */,
 				A63AF1681D50490B0084CE06 /* MSLoadingDotsAnimation */,
 				A63AF16F1D50490B0084CE06 /* MSMapLocationAnimation */,
@@ -327,10 +340,6 @@
 			isa = PBXGroup;
 			children = (
 				A6772ECD1D6A9B5A008D0B74 /* Shows */,
-				A6772EAB1D6A98BB008D0B74 /* AppDelegate.h */,
-				A6772EAC1D6A98BB008D0B74 /* AppDelegate.m */,
-				A6772EAE1D6A98BB008D0B74 /* ViewController.h */,
-				A6772EAF1D6A98BB008D0B74 /* ViewController.m */,
 				A6772EA81D6A98BB008D0B74 /* Supporting Files */,
 			);
 			path = MSShow;
@@ -362,10 +371,75 @@
 			isa = PBXGroup;
 			children = (
 				A63AF19F1D504DCC0084CE06 /* MSShow-Bridging-Header.h */,
+				A6FFCA2B1D5073FC00531366 /* MSMain */,
 				A63AF15C1D50490B0084CE06 /* MSAnimations */,
 				A63AF15B1D5048DA0084CE06 /* MSHelpers */,
+				A6FFCA281D50734000531366 /* MSExtentions */,
 			);
 			path = Shows;
+			sourceTree = "<group>";
+		};
+		A6FFCA191D5071D800531366 /* MSFadingText */ = {
+			isa = PBXGroup;
+			children = (
+				A6FFCA1A1D5071D800531366 /* Controllers */,
+				A6FFCA1B1D5071D800531366 /* Helpers */,
+				A6FFCA1C1D5071D800531366 /* Models */,
+				A6FFCA1D1D5071D800531366 /* Views */,
+			);
+			path = MSFadingText;
+			sourceTree = "<group>";
+		};
+		A6FFCA1A1D5071D800531366 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6FFCA261D5072CD00531366 /* MSFadingText.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6FFCA1B1D5071D800531366 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A6FFCA1E1D50725B00531366 /* CLMLayerAnimation.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A6FFCA1C1D5071D800531366 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6FFCA241D5072B100531366 /* Quote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6FFCA1D1D5071D800531366 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6FFCA201D5072AA00531366 /* CharacterLabel.swift */,
+				A6FFCA211D5072AA00531366 /* FadingLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6FFCA281D50734000531366 /* MSExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				A6FFCA291D50734A00531366 /* SwiftExtenstions.swift */,
+			);
+			path = MSExtentions;
+			sourceTree = "<group>";
+		};
+		A6FFCA2B1D5073FC00531366 /* MSMain */ = {
+			isa = PBXGroup;
+			children = (
+				A6FFCA2C1D5073FC00531366 /* AppDelegate.h */,
+				A6FFCA2D1D5073FC00531366 /* AppDelegate.m */,
+				A6FFCA2E1D5073FC00531366 /* ViewController.h */,
+				A6FFCA2F1D5073FC00531366 /* ViewController.m */,
+			);
+			path = MSMain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -475,10 +549,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A63AF18B1D50490B0084CE06 /* LoadingDots.swift in Sources */,
-				A6772EB01D6A98BB008D0B74 /* ViewController.m in Sources */,
 				A63AF18A1D50490B0084CE06 /* MSLoadingDotsVC.swift in Sources */,
+				A6FFCA1F1D50725B00531366 /* CLMLayerAnimation.swift in Sources */,
 				A63AF18D1D50490B0084CE06 /* MapViewController.swift in Sources */,
 				A63AF1901D50490B0084CE06 /* MSScanningVC.m in Sources */,
+				A6FFCA271D5072CD00531366 /* MSFadingText.swift in Sources */,
+				A6FFCA251D5072B100531366 /* Quote.swift in Sources */,
 				A63AF1891D50490B0084CE06 /* KeepNewFeatrueView.m in Sources */,
 				A63AF18F1D50490B0084CE06 /* SonarAnnotationView.swift in Sources */,
 				A63AF1921D50490B0084CE06 /* MSGuideView.m in Sources */,
@@ -487,12 +563,16 @@
 				A63AF1871D50490B0084CE06 /* KeepAdLabel.m in Sources */,
 				A63AF19A1D50498E0084CE06 /* Gallon.swift in Sources */,
 				A63AF1941D5049280084CE06 /* GlobalFunctions.swift in Sources */,
-				A6772EAD1D6A98BB008D0B74 /* AppDelegate.m in Sources */,
 				A63AF1881D50490B0084CE06 /* KeepAdScrollView.m in Sources */,
 				A63AF18E1D50490B0084CE06 /* Annotation.swift in Sources */,
 				A6772EAA1D6A98BB008D0B74 /* main.m in Sources */,
 				A63AF1861D50490B0084CE06 /* KeepNewFeatureViewController.m in Sources */,
+				A6FFCA2A1D50734A00531366 /* SwiftExtenstions.swift in Sources */,
+				A6FFCA301D5073FC00531366 /* AppDelegate.m in Sources */,
 				A63AF1981D5049810084CE06 /* ProgressView.swift in Sources */,
+				A6FFCA221D5072AA00531366 /* CharacterLabel.swift in Sources */,
+				A6FFCA231D5072AA00531366 /* FadingLabel.swift in Sources */,
+				A6FFCA311D5073FC00531366 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
