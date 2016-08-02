@@ -18,6 +18,9 @@
 ### 播放Gif动图
 ![MSGif](MSGif.gif)
 
+### 擦一擦
+![MSEraseImage](MSEraseImage.gif)
+
 ### 聚光灯效果用户引导
 ![MSSpotlight](MSSpotlight.gif)
 
