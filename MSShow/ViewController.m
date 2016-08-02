@@ -25,6 +25,11 @@ UITableViewDataSource
 
 @implementation ViewController
 #pragma mark - View Life Cycle
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBar.hidden = NO;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -63,9 +68,6 @@ UITableViewDataSource
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId forIndexPath:indexPath];
-//    -[__NSArrayI isEqualToString:]: unrecognized selector sent to instance 0x7fc7486dc5e0
-    // 出现这个报错是因为我将原来单行row的拓展成了section，而cellForRowAtIndexPath中没有做相应的修改，从而导致crash
-//    cell.textLabel.text = self.data[indexPath.row];
     cell.textLabel.text = self.data[indexPath.section][indexPath.row];
     return cell;
 }

@@ -23,8 +23,8 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 //    @IBOutlet var mapView: MKMapView!
     var mapView: MKMapView?
     let regionRadius: CLLocationDistance = 3000
-    let latitude = 22.54679//40.758873
-    let longitude = 114.13518//-73.985134
+    let latitude = 22.54679
+    let longitude = 114.13518
     
     
     // MARK: - View Life Cycle
