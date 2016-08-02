@@ -50,7 +50,7 @@ UITableViewDataSource
 - (NSArray *)data
 {
     if (!_data) {
-        _data = @[@[@"地图定位动画", @"加载动画"],
+        _data = @[@[@"渐变圆弧进度动画", @"地图定位动画", @"加载动画"],
                   @[@"聚光灯效果用户引导", @"搜索动画", @"仿KEEP应用引导页"]];
     }
     return _data;
@@ -82,21 +82,21 @@ UITableViewDataSource
             {
                 case 0:
                 {
-                    [self presentViewController:[[MapViewController alloc] init] animated:YES completion:nil];
+                    [self.navigationController pushViewController:[[UIStoryboard storyboardWithName:@"MSProgressVC" bundle:nil] instantiateViewControllerWithIdentifier:@"progressVC"] animated:YES];
                 }
                     break;
                     
                 case 1:
                 {
+                    [self presentViewController:[[MapViewController alloc] init] animated:YES completion:nil];
+                }
+                    break;
+
+                case 2:
+                {
                     [self presentViewController:[[MSLoadingDotsVC alloc] init] animated:YES completion:nil];
                 }
                     break;
-//
-//                case 2:
-//                {
-//                    [self.navigationController pushViewController:[[KeepNewFeatureViewController alloc] init] animated:YES];
-//                }
-//                    break;
                     
                 default:
                     break;

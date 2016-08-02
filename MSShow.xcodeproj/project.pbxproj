@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A63AF1481D502EED0084CE06 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1471D502EED0084CE06 /* MapViewController.swift */; };
-		A63AF14A1D502FCC0084CE06 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1491D502FCC0084CE06 /* Annotation.swift */; };
-		A63AF14C1D502FD80084CE06 /* SonarAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF14B1D502FD80084CE06 /* SonarAnnotationView.swift */; };
-		A63AF1531D5042C00084CE06 /* LoadingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1511D5042C00084CE06 /* LoadingDots.swift */; };
-		A63AF1541D5042C00084CE06 /* LoadingDots.xib in Resources */ = {isa = PBXBuildFile; fileRef = A63AF1521D5042C00084CE06 /* LoadingDots.xib */; };
-		A63AF1561D5042C60084CE06 /* MSLoadingDotsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1551D5042C60084CE06 /* MSLoadingDotsVC.swift */; };
+		A63AF1861D50490B0084CE06 /* KeepNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1601D50490B0084CE06 /* KeepNewFeatureViewController.m */; };
+		A63AF1871D50490B0084CE06 /* KeepAdLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1631D50490B0084CE06 /* KeepAdLabel.m */; };
+		A63AF1881D50490B0084CE06 /* KeepAdScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1651D50490B0084CE06 /* KeepAdScrollView.m */; };
+		A63AF1891D50490B0084CE06 /* KeepNewFeatrueView.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1671D50490B0084CE06 /* KeepNewFeatrueView.m */; };
+		A63AF18A1D50490B0084CE06 /* MSLoadingDotsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF16A1D50490B0084CE06 /* MSLoadingDotsVC.swift */; };
+		A63AF18B1D50490B0084CE06 /* LoadingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF16D1D50490B0084CE06 /* LoadingDots.swift */; };
+		A63AF18C1D50490B0084CE06 /* LoadingDots.xib in Resources */ = {isa = PBXBuildFile; fileRef = A63AF16E1D50490B0084CE06 /* LoadingDots.xib */; };
+		A63AF18D1D50490B0084CE06 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1711D50490B0084CE06 /* MapViewController.swift */; };
+		A63AF18E1D50490B0084CE06 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1741D50490B0084CE06 /* Annotation.swift */; };
+		A63AF18F1D50490B0084CE06 /* SonarAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1761D50490B0084CE06 /* SonarAnnotationView.swift */; };
+		A63AF1901D50490B0084CE06 /* MSScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AF17D1D50490B0084CE06 /* MSScanningVC.m */; };
+		A63AF1911D50490B0084CE06 /* MSSpotlightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1811D50490B0084CE06 /* MSSpotlightVC.m */; };
+		A63AF1921D50490B0084CE06 /* MSGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1851D50490B0084CE06 /* MSGuideView.m */; };
+		A63AF1941D5049280084CE06 /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1931D5049280084CE06 /* GlobalFunctions.swift */; };
+		A63AF1961D50493B0084CE06 /* MSProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1951D50493B0084CE06 /* MSProgressVC.swift */; };
+		A63AF1981D5049810084CE06 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1971D5049810084CE06 /* ProgressView.swift */; };
+		A63AF19A1D50498E0084CE06 /* Gallon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1991D50498E0084CE06 /* Gallon.swift */; };
+		A63AF19E1D5049F90084CE06 /* MSProgressVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63AF19D1D5049F90084CE06 /* MSProgressVC.storyboard */; };
 		A6772EAA1D6A98BB008D0B74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EA91D6A98BB008D0B74 /* main.m */; };
 		A6772EAD1D6A98BB008D0B74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EAC1D6A98BB008D0B74 /* AppDelegate.m */; };
 		A6772EB01D6A98BB008D0B74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EAF1D6A98BB008D0B74 /* ViewController.m */; };
@@ -20,14 +32,7 @@
 		A6772EB51D6A98BB008D0B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6772EB41D6A98BB008D0B74 /* Assets.xcassets */; };
 		A6772EB81D6A98BB008D0B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6772EB61D6A98BB008D0B74 /* LaunchScreen.storyboard */; };
 		A6772EC31D6A98BB008D0B74 /* MSShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EC21D6A98BB008D0B74 /* MSShowTests.m */; };
-		A6772ED71D6A9BBA008D0B74 /* MSSpotlightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772ED41D6A9BBA008D0B74 /* MSSpotlightVC.m */; };
-		A6772EDA1D6A9BE9008D0B74 /* MSGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772ED91D6A9BE9008D0B74 /* MSGuideView.m */; };
-		A6772EDE1D6AA592008D0B74 /* MSScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EDD1D6AA592008D0B74 /* MSScanningVC.m */; };
-		A6772EE71D6AADBB008D0B74 /* KeepAdLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EE21D6AADBB008D0B74 /* KeepAdLabel.m */; };
-		A6772EE81D6AADBB008D0B74 /* KeepAdScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EE41D6AADBB008D0B74 /* KeepAdScrollView.m */; };
-		A6772EE91D6AADBB008D0B74 /* KeepNewFeatrueView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EE61D6AADBB008D0B74 /* KeepNewFeatrueView.m */; };
 		A6772EEB1D6AADCB008D0B74 /* keep.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A6772EEA1D6AADCB008D0B74 /* keep.mp4 */; };
-		A6772EF21D6AADF8008D0B74 /* KeepNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EF11D6AADF8008D0B74 /* KeepNewFeatureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +46,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A63AF1461D502EEC0084CE06 /* MSShow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MSShow-Bridging-Header.h"; path = "Controller/MSShow-Bridging-Header.h"; sourceTree = "<group>"; };
-		A63AF1471D502EED0084CE06 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		A63AF1491D502FCC0084CE06 /* Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
-		A63AF14B1D502FD80084CE06 /* SonarAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonarAnnotationView.swift; sourceTree = "<group>"; };
-		A63AF1511D5042C00084CE06 /* LoadingDots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingDots.swift; sourceTree = "<group>"; };
-		A63AF1521D5042C00084CE06 /* LoadingDots.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingDots.xib; sourceTree = "<group>"; };
-		A63AF1551D5042C60084CE06 /* MSLoadingDotsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSLoadingDotsVC.swift; sourceTree = "<group>"; };
+		A63AF15F1D50490B0084CE06 /* KeepNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepNewFeatureViewController.h; sourceTree = "<group>"; };
+		A63AF1601D50490B0084CE06 /* KeepNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepNewFeatureViewController.m; sourceTree = "<group>"; };
+		A63AF1621D50490B0084CE06 /* KeepAdLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepAdLabel.h; sourceTree = "<group>"; };
+		A63AF1631D50490B0084CE06 /* KeepAdLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepAdLabel.m; sourceTree = "<group>"; };
+		A63AF1641D50490B0084CE06 /* KeepAdScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepAdScrollView.h; sourceTree = "<group>"; };
+		A63AF1651D50490B0084CE06 /* KeepAdScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepAdScrollView.m; sourceTree = "<group>"; };
+		A63AF1661D50490B0084CE06 /* KeepNewFeatrueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepNewFeatrueView.h; sourceTree = "<group>"; };
+		A63AF1671D50490B0084CE06 /* KeepNewFeatrueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepNewFeatrueView.m; sourceTree = "<group>"; };
+		A63AF16A1D50490B0084CE06 /* MSLoadingDotsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSLoadingDotsVC.swift; sourceTree = "<group>"; };
+		A63AF16D1D50490B0084CE06 /* LoadingDots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingDots.swift; sourceTree = "<group>"; };
+		A63AF16E1D50490B0084CE06 /* LoadingDots.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingDots.xib; sourceTree = "<group>"; };
+		A63AF1711D50490B0084CE06 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A63AF1741D50490B0084CE06 /* Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		A63AF1761D50490B0084CE06 /* SonarAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonarAnnotationView.swift; sourceTree = "<group>"; };
+		A63AF17C1D50490B0084CE06 /* MSScanningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScanningVC.h; sourceTree = "<group>"; };
+		A63AF17D1D50490B0084CE06 /* MSScanningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScanningVC.m; sourceTree = "<group>"; };
+		A63AF1801D50490B0084CE06 /* MSSpotlightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSpotlightVC.h; sourceTree = "<group>"; };
+		A63AF1811D50490B0084CE06 /* MSSpotlightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSpotlightVC.m; sourceTree = "<group>"; };
+		A63AF1841D50490B0084CE06 /* MSGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGuideView.h; sourceTree = "<group>"; };
+		A63AF1851D50490B0084CE06 /* MSGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSGuideView.m; sourceTree = "<group>"; };
+		A63AF1931D5049280084CE06 /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		A63AF1951D50493B0084CE06 /* MSProgressVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSProgressVC.swift; sourceTree = "<group>"; };
+		A63AF1971D5049810084CE06 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		A63AF1991D50498E0084CE06 /* Gallon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gallon.swift; sourceTree = "<group>"; };
+		A63AF19D1D5049F90084CE06 /* MSProgressVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MSProgressVC.storyboard; sourceTree = "<group>"; };
+		A63AF19F1D504DCC0084CE06 /* MSShow-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSShow-Bridging-Header.h"; sourceTree = "<group>"; };
 		A6772EA51D6A98BA008D0B74 /* MSShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6772EA91D6A98BB008D0B74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6772EAB1D6A98BB008D0B74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,21 +85,7 @@
 		A6772EBE1D6A98BB008D0B74 /* MSShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6772EC21D6A98BB008D0B74 /* MSShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSShowTests.m; sourceTree = "<group>"; };
 		A6772EC41D6A98BB008D0B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6772ED31D6A9BBA008D0B74 /* MSSpotlightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSpotlightVC.h; sourceTree = "<group>"; };
-		A6772ED41D6A9BBA008D0B74 /* MSSpotlightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSpotlightVC.m; sourceTree = "<group>"; };
-		A6772ED81D6A9BE9008D0B74 /* MSGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGuideView.h; sourceTree = "<group>"; };
-		A6772ED91D6A9BE9008D0B74 /* MSGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSGuideView.m; sourceTree = "<group>"; };
-		A6772EDC1D6AA592008D0B74 /* MSScanningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScanningVC.h; sourceTree = "<group>"; };
-		A6772EDD1D6AA592008D0B74 /* MSScanningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScanningVC.m; sourceTree = "<group>"; };
-		A6772EE11D6AADBB008D0B74 /* KeepAdLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepAdLabel.h; sourceTree = "<group>"; };
-		A6772EE21D6AADBB008D0B74 /* KeepAdLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepAdLabel.m; sourceTree = "<group>"; };
-		A6772EE31D6AADBB008D0B74 /* KeepAdScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepAdScrollView.h; sourceTree = "<group>"; };
-		A6772EE41D6AADBB008D0B74 /* KeepAdScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepAdScrollView.m; sourceTree = "<group>"; };
-		A6772EE51D6AADBB008D0B74 /* KeepNewFeatrueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepNewFeatrueView.h; sourceTree = "<group>"; };
-		A6772EE61D6AADBB008D0B74 /* KeepNewFeatrueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepNewFeatrueView.m; sourceTree = "<group>"; };
 		A6772EEA1D6AADCB008D0B74 /* keep.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = keep.mp4; sourceTree = "<group>"; };
-		A6772EF01D6AADF8008D0B74 /* KeepNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepNewFeatureViewController.h; sourceTree = "<group>"; };
-		A6772EF11D6AADF8008D0B74 /* KeepNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepNewFeatureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,73 +106,203 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A63AF1421D502EB10084CE06 /* MSMapLocationAnimation */ = {
+		A63AF15B1D5048DA0084CE06 /* MSHelpers */ = {
 			isa = PBXGroup;
 			children = (
-				A63AF1461D502EEC0084CE06 /* MSShow-Bridging-Header.h */,
-				A63AF1431D502EE30084CE06 /* Controller */,
-				A63AF1441D502EE30084CE06 /* Model */,
-				A63AF1451D502EE30084CE06 /* View */,
+				A63AF1931D5049280084CE06 /* GlobalFunctions.swift */,
 			);
-			path = MSMapLocationAnimation;
+			path = MSHelpers;
 			sourceTree = "<group>";
 		};
-		A63AF1431D502EE30084CE06 /* Controller */ = {
+		A63AF15C1D50490B0084CE06 /* MSAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				A63AF1471D502EED0084CE06 /* MapViewController.swift */,
+				A63AF15D1D50490B0084CE06 /* MSKeep */,
+				A63AF1681D50490B0084CE06 /* MSLoadingDotsAnimation */,
+				A63AF16F1D50490B0084CE06 /* MSMapLocationAnimation */,
+				A63AF1771D50490B0084CE06 /* MSProgressAnimation */,
+				A63AF17B1D50490B0084CE06 /* MSSearching */,
+				A63AF17E1D50490B0084CE06 /* MSSpotlight */,
+			);
+			path = MSAnimations;
+			sourceTree = "<group>";
+		};
+		A63AF15D1D50490B0084CE06 /* MSKeep */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF15E1D50490B0084CE06 /* Controller */,
+				A63AF1611D50490B0084CE06 /* View */,
+			);
+			path = MSKeep;
+			sourceTree = "<group>";
+		};
+		A63AF15E1D50490B0084CE06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF15F1D50490B0084CE06 /* KeepNewFeatureViewController.h */,
+				A63AF1601D50490B0084CE06 /* KeepNewFeatureViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		A63AF1441D502EE30084CE06 /* Model */ = {
+		A63AF1611D50490B0084CE06 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A63AF1491D502FCC0084CE06 /* Annotation.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A63AF1451D502EE30084CE06 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A63AF14B1D502FD80084CE06 /* SonarAnnotationView.swift */,
+				A63AF1621D50490B0084CE06 /* KeepAdLabel.h */,
+				A63AF1631D50490B0084CE06 /* KeepAdLabel.m */,
+				A63AF1641D50490B0084CE06 /* KeepAdScrollView.h */,
+				A63AF1651D50490B0084CE06 /* KeepAdScrollView.m */,
+				A63AF1661D50490B0084CE06 /* KeepNewFeatrueView.h */,
+				A63AF1671D50490B0084CE06 /* KeepNewFeatrueView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		A63AF14D1D50426A0084CE06 /* MSLoadingDotsAnimation */ = {
+		A63AF1681D50490B0084CE06 /* MSLoadingDotsAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				A63AF14E1D50426A0084CE06 /* Controllers */,
-				A63AF14F1D50426A0084CE06 /* Models */,
-				A63AF1501D50426A0084CE06 /* Views */,
+				A63AF1691D50490B0084CE06 /* Controllers */,
+				A63AF16B1D50490B0084CE06 /* Models */,
+				A63AF16C1D50490B0084CE06 /* Views */,
 			);
 			path = MSLoadingDotsAnimation;
 			sourceTree = "<group>";
 		};
-		A63AF14E1D50426A0084CE06 /* Controllers */ = {
+		A63AF1691D50490B0084CE06 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A63AF1551D5042C60084CE06 /* MSLoadingDotsVC.swift */,
+				A63AF16A1D50490B0084CE06 /* MSLoadingDotsVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		A63AF14F1D50426A0084CE06 /* Models */ = {
+		A63AF16B1D50490B0084CE06 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		A63AF1501D50426A0084CE06 /* Views */ = {
+		A63AF16C1D50490B0084CE06 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A63AF1511D5042C00084CE06 /* LoadingDots.swift */,
-				A63AF1521D5042C00084CE06 /* LoadingDots.xib */,
+				A63AF16D1D50490B0084CE06 /* LoadingDots.swift */,
+				A63AF16E1D50490B0084CE06 /* LoadingDots.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A63AF16F1D50490B0084CE06 /* MSMapLocationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF1701D50490B0084CE06 /* Controller */,
+				A63AF1731D50490B0084CE06 /* Model */,
+				A63AF1751D50490B0084CE06 /* View */,
+			);
+			path = MSMapLocationAnimation;
+			sourceTree = "<group>";
+		};
+		A63AF1701D50490B0084CE06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF1711D50490B0084CE06 /* MapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A63AF1731D50490B0084CE06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF1741D50490B0084CE06 /* Annotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A63AF1751D50490B0084CE06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF1761D50490B0084CE06 /* SonarAnnotationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A63AF1771D50490B0084CE06 /* MSProgressAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF1781D50490B0084CE06 /* Controllers */,
+				A63AF1791D50490B0084CE06 /* Models */,
+				A63AF17A1D50490B0084CE06 /* Views */,
+			);
+			path = MSProgressAnimation;
+			sourceTree = "<group>";
+		};
+		A63AF1781D50490B0084CE06 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF1951D50493B0084CE06 /* MSProgressVC.swift */,
+				A63AF19D1D5049F90084CE06 /* MSProgressVC.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A63AF1791D50490B0084CE06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF1991D50498E0084CE06 /* Gallon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A63AF17A1D50490B0084CE06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF1971D5049810084CE06 /* ProgressView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A63AF17B1D50490B0084CE06 /* MSSearching */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF17C1D50490B0084CE06 /* MSScanningVC.h */,
+				A63AF17D1D50490B0084CE06 /* MSScanningVC.m */,
+			);
+			path = MSSearching;
+			sourceTree = "<group>";
+		};
+		A63AF17E1D50490B0084CE06 /* MSSpotlight */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF17F1D50490B0084CE06 /* Controller */,
+				A63AF1821D50490B0084CE06 /* Model */,
+				A63AF1831D50490B0084CE06 /* View */,
+			);
+			path = MSSpotlight;
+			sourceTree = "<group>";
+		};
+		A63AF17F1D50490B0084CE06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF1801D50490B0084CE06 /* MSSpotlightVC.h */,
+				A63AF1811D50490B0084CE06 /* MSSpotlightVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A63AF1821D50490B0084CE06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A63AF1831D50490B0084CE06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A63AF1841D50490B0084CE06 /* MSGuideView.h */,
+				A63AF1851D50490B0084CE06 /* MSGuideView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A6772E9C1D6A98BA008D0B74 = {
@@ -221,88 +361,11 @@
 		A6772ECD1D6A9B5A008D0B74 /* Shows */ = {
 			isa = PBXGroup;
 			children = (
-				A63AF14D1D50426A0084CE06 /* MSLoadingDotsAnimation */,
-				A63AF1421D502EB10084CE06 /* MSMapLocationAnimation */,
-				A6772EDF1D6AADA3008D0B74 /* MSKeep */,
-				A6772EDB1D6AA4EC008D0B74 /* MSSearching */,
-				A6772ECE1D6A9B5A008D0B74 /* MSSpotlight */,
+				A63AF19F1D504DCC0084CE06 /* MSShow-Bridging-Header.h */,
+				A63AF15C1D50490B0084CE06 /* MSAnimations */,
+				A63AF15B1D5048DA0084CE06 /* MSHelpers */,
 			);
 			path = Shows;
-			sourceTree = "<group>";
-		};
-		A6772ECE1D6A9B5A008D0B74 /* MSSpotlight */ = {
-			isa = PBXGroup;
-			children = (
-				A6772ED21D6A9BBA008D0B74 /* Controller */,
-				A6772ED51D6A9BBA008D0B74 /* Model */,
-				A6772ED61D6A9BBA008D0B74 /* View */,
-			);
-			path = MSSpotlight;
-			sourceTree = "<group>";
-		};
-		A6772ED21D6A9BBA008D0B74 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				A6772ED31D6A9BBA008D0B74 /* MSSpotlightVC.h */,
-				A6772ED41D6A9BBA008D0B74 /* MSSpotlightVC.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		A6772ED51D6A9BBA008D0B74 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A6772ED61D6A9BBA008D0B74 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A6772ED81D6A9BE9008D0B74 /* MSGuideView.h */,
-				A6772ED91D6A9BE9008D0B74 /* MSGuideView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A6772EDB1D6AA4EC008D0B74 /* MSSearching */ = {
-			isa = PBXGroup;
-			children = (
-				A6772EDC1D6AA592008D0B74 /* MSScanningVC.h */,
-				A6772EDD1D6AA592008D0B74 /* MSScanningVC.m */,
-			);
-			path = MSSearching;
-			sourceTree = "<group>";
-		};
-		A6772EDF1D6AADA3008D0B74 /* MSKeep */ = {
-			isa = PBXGroup;
-			children = (
-				A6772EEF1D6AADF8008D0B74 /* Controller */,
-				A6772EE01D6AADBB008D0B74 /* View */,
-			);
-			path = MSKeep;
-			sourceTree = "<group>";
-		};
-		A6772EE01D6AADBB008D0B74 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A6772EE11D6AADBB008D0B74 /* KeepAdLabel.h */,
-				A6772EE21D6AADBB008D0B74 /* KeepAdLabel.m */,
-				A6772EE31D6AADBB008D0B74 /* KeepAdScrollView.h */,
-				A6772EE41D6AADBB008D0B74 /* KeepAdScrollView.m */,
-				A6772EE51D6AADBB008D0B74 /* KeepNewFeatrueView.h */,
-				A6772EE61D6AADBB008D0B74 /* KeepNewFeatrueView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A6772EEF1D6AADF8008D0B74 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				A6772EF01D6AADF8008D0B74 /* KeepNewFeatureViewController.h */,
-				A6772EF11D6AADF8008D0B74 /* KeepNewFeatureViewController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,8 +453,9 @@
 			files = (
 				A6772EEB1D6AADCB008D0B74 /* keep.mp4 in Resources */,
 				A6772EB81D6A98BB008D0B74 /* LaunchScreen.storyboard in Resources */,
+				A63AF19E1D5049F90084CE06 /* MSProgressVC.storyboard in Resources */,
 				A6772EB51D6A98BB008D0B74 /* Assets.xcassets in Resources */,
-				A63AF1541D5042C00084CE06 /* LoadingDots.xib in Resources */,
+				A63AF18C1D50490B0084CE06 /* LoadingDots.xib in Resources */,
 				A6772EB31D6A98BB008D0B74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,21 +474,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A63AF1561D5042C60084CE06 /* MSLoadingDotsVC.swift in Sources */,
-				A6772EE91D6AADBB008D0B74 /* KeepNewFeatrueView.m in Sources */,
+				A63AF18B1D50490B0084CE06 /* LoadingDots.swift in Sources */,
 				A6772EB01D6A98BB008D0B74 /* ViewController.m in Sources */,
-				A6772EF21D6AADF8008D0B74 /* KeepNewFeatureViewController.m in Sources */,
-				A6772EE81D6AADBB008D0B74 /* KeepAdScrollView.m in Sources */,
-				A63AF1481D502EED0084CE06 /* MapViewController.swift in Sources */,
-				A6772EE71D6AADBB008D0B74 /* KeepAdLabel.m in Sources */,
+				A63AF18A1D50490B0084CE06 /* MSLoadingDotsVC.swift in Sources */,
+				A63AF18D1D50490B0084CE06 /* MapViewController.swift in Sources */,
+				A63AF1901D50490B0084CE06 /* MSScanningVC.m in Sources */,
+				A63AF1891D50490B0084CE06 /* KeepNewFeatrueView.m in Sources */,
+				A63AF18F1D50490B0084CE06 /* SonarAnnotationView.swift in Sources */,
+				A63AF1921D50490B0084CE06 /* MSGuideView.m in Sources */,
+				A63AF1911D50490B0084CE06 /* MSSpotlightVC.m in Sources */,
+				A63AF1961D50493B0084CE06 /* MSProgressVC.swift in Sources */,
+				A63AF1871D50490B0084CE06 /* KeepAdLabel.m in Sources */,
+				A63AF19A1D50498E0084CE06 /* Gallon.swift in Sources */,
+				A63AF1941D5049280084CE06 /* GlobalFunctions.swift in Sources */,
 				A6772EAD1D6A98BB008D0B74 /* AppDelegate.m in Sources */,
-				A6772EDA1D6A9BE9008D0B74 /* MSGuideView.m in Sources */,
-				A6772EDE1D6AA592008D0B74 /* MSScanningVC.m in Sources */,
+				A63AF1881D50490B0084CE06 /* KeepAdScrollView.m in Sources */,
+				A63AF18E1D50490B0084CE06 /* Annotation.swift in Sources */,
 				A6772EAA1D6A98BB008D0B74 /* main.m in Sources */,
-				A63AF1531D5042C00084CE06 /* LoadingDots.swift in Sources */,
-				A63AF14A1D502FCC0084CE06 /* Annotation.swift in Sources */,
-				A6772ED71D6A9BBA008D0B74 /* MSSpotlightVC.m in Sources */,
-				A63AF14C1D502FD80084CE06 /* SonarAnnotationView.swift in Sources */,
+				A63AF1861D50490B0084CE06 /* KeepNewFeatureViewController.m in Sources */,
+				A63AF1981D5049810084CE06 /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +626,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MSShow/Shows/MSMapLocationAnimation/Controller/MSShow-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mr.scorpion/MSShow/MSShow/Shows/MSShow-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -573,7 +641,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MSShow/Shows/MSMapLocationAnimation/Controller/MSShow-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mr.scorpion/MSShow/MSShow/Shows/MSShow-Bridging-Header.h";
 			};
 			name = Release;
 		};

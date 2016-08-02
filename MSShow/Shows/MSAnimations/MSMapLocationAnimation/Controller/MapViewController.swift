@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MapViewController.swift
 //  MapLocationAnimation
 //
 //  Created by mr.scorpion on 4/17/16.
