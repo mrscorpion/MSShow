@@ -12,6 +12,7 @@
 #import "KeepNewFeatureViewController.h"
 #import "MSShow-Swift.h"
 #import "MSEraseImageVC.h"
+#import "MSMenuVC.h"
 
 #define kSectionHeight 30
 static NSString *const cellId = @"cellId";
@@ -54,7 +55,7 @@ UITableViewDataSource
 {
     if (!_data) {
         _data = @[
-                  @[@"文字特效"],
+                  @[@"文字特效", @"360度视频播放器"],
                   @[@"渐变圆弧进度动画", @"地图定位动画", @"加载动画", @"擦一擦", @"播放Gif"],
                   @[@"聚光灯效果用户引导", @"搜索动画", @"仿KEEP应用引导页"]
                   ];
@@ -109,12 +110,12 @@ UITableViewDataSource
                 }
                     break;
                     
-//                case 1:
-//                {
-//                    [self presentViewController:[[MapViewController alloc] init] animated:YES completion:nil];
-//                }
-//                    break;
-//                    
+                case 1:
+                {
+                    [self presentViewController:[[MSMenuVC alloc] initWithNibName:@"MSMenuVC" bundle:[NSBundle mainBundle]] animated:YES completion:nil];
+                }
+                    break;
+//
 //                case 2:
 //                {
 //                    [self presentViewController:[[MSLoadingDotsVC alloc] init] animated:YES completion:nil];

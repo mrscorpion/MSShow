@@ -31,6 +31,16 @@
 		A6772EB81D6A98BB008D0B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6772EB61D6A98BB008D0B74 /* LaunchScreen.storyboard */; };
 		A6772EC31D6A98BB008D0B74 /* MSShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6772EC21D6A98BB008D0B74 /* MSShowTests.m */; };
 		A6772EEB1D6AADCB008D0B74 /* keep.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A6772EEA1D6AADCB008D0B74 /* keep.mp4 */; };
+		A69AD8631D50CFD60099020C /* demo1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A69AD8621D50CFD60099020C /* demo1.mp4 */; };
+		A69AD8771D50CFEE0099020C /* MS360PlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A69AD8671D50CFEE0099020C /* MS360PlayerVC.m */; };
+		A69AD8781D50CFEE0099020C /* MS360PlayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69AD8681D50CFEE0099020C /* MS360PlayerVC.xib */; };
+		A69AD8791D50CFEE0099020C /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = A69AD86B1D50CFEE0099020C /* GLProgram.m */; };
+		A69AD87A1D50CFEE0099020C /* MSGLKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A69AD86D1D50CFEE0099020C /* MSGLKVC.m */; };
+		A69AD87B1D50CFEE0099020C /* MSGenericMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A69AD8701D50CFEE0099020C /* MSGenericMenuVC.m */; };
+		A69AD87C1D50CFEE0099020C /* MSMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A69AD8721D50CFEE0099020C /* MSMenuVC.m */; };
+		A69AD87D1D50CFEE0099020C /* MSMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69AD8731D50CFEE0099020C /* MSMenuVC.xib */; };
+		A69AD87E1D50CFEE0099020C /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A69AD8751D50CFEE0099020C /* Shader.fsh */; };
+		A69AD87F1D50CFEE0099020C /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A69AD8761D50CFEE0099020C /* Shader.vsh */; };
 		A6B00A971D50A93D005096D0 /* MSEraseImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B00A951D50A93D005096D0 /* MSEraseImageVC.m */; };
 		A6B00A981D50A93D005096D0 /* MSEraseImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B00A961D50A93D005096D0 /* MSEraseImageVC.xib */; };
 		A6FFCA1F1D50725B00531366 /* CLMLayerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFCA1E1D50725B00531366 /* CLMLayerAnimation.swift */; };
@@ -95,6 +105,21 @@
 		A6772EC21D6A98BB008D0B74 /* MSShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSShowTests.m; sourceTree = "<group>"; };
 		A6772EC41D6A98BB008D0B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6772EEA1D6AADCB008D0B74 /* keep.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = keep.mp4; sourceTree = "<group>"; };
+		A69AD8621D50CFD60099020C /* demo1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo1.mp4; sourceTree = "<group>"; };
+		A69AD8661D50CFEE0099020C /* MS360PlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MS360PlayerVC.h; sourceTree = "<group>"; };
+		A69AD8671D50CFEE0099020C /* MS360PlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MS360PlayerVC.m; sourceTree = "<group>"; };
+		A69AD8681D50CFEE0099020C /* MS360PlayerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MS360PlayerVC.xib; sourceTree = "<group>"; };
+		A69AD86A1D50CFEE0099020C /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
+		A69AD86B1D50CFEE0099020C /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProgram.m; sourceTree = "<group>"; };
+		A69AD86C1D50CFEE0099020C /* MSGLKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGLKVC.h; sourceTree = "<group>"; };
+		A69AD86D1D50CFEE0099020C /* MSGLKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSGLKVC.m; sourceTree = "<group>"; };
+		A69AD86F1D50CFEE0099020C /* MSGenericMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGenericMenuVC.h; sourceTree = "<group>"; };
+		A69AD8701D50CFEE0099020C /* MSGenericMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSGenericMenuVC.m; sourceTree = "<group>"; };
+		A69AD8711D50CFEE0099020C /* MSMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMenuVC.h; sourceTree = "<group>"; };
+		A69AD8721D50CFEE0099020C /* MSMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMenuVC.m; sourceTree = "<group>"; };
+		A69AD8731D50CFEE0099020C /* MSMenuVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSMenuVC.xib; sourceTree = "<group>"; };
+		A69AD8751D50CFEE0099020C /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		A69AD8761D50CFEE0099020C /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
 		A6B00A941D50A93D005096D0 /* MSEraseImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEraseImageVC.h; sourceTree = "<group>"; };
 		A6B00A951D50A93D005096D0 /* MSEraseImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSEraseImageVC.m; sourceTree = "<group>"; };
 		A6B00A961D50A93D005096D0 /* MSEraseImageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSEraseImageVC.xib; sourceTree = "<group>"; };
@@ -160,6 +185,7 @@
 		A63AF15C1D50490B0084CE06 /* MSAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				A69AD8641D50CFEE0099020C /* MSVRPlayer */,
 				A6B00A901D50A934005096D0 /* MSEraseImage */,
 				A6FFCA321D509A4F00531366 /* MSGif */,
 				A6FFCA191D5071D800531366 /* MSFadingText */,
@@ -383,6 +409,7 @@
 		A6772EA81D6A98BB008D0B74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A69AD8621D50CFD60099020C /* demo1.mp4 */,
 				A6FFCA381D509AA200531366 /* cat-video.gif */,
 				A6772EEA1D6AADCB008D0B74 /* keep.mp4 */,
 				A6772EB11D6A98BB008D0B74 /* Main.storyboard */,
@@ -413,6 +440,59 @@
 				A6FFCA281D50734000531366 /* MSExtentions */,
 			);
 			path = Shows;
+			sourceTree = "<group>";
+		};
+		A69AD8641D50CFEE0099020C /* MSVRPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A69AD86E1D50CFEE0099020C /* Menu */,
+				A69AD8651D50CFEE0099020C /* 360Player */,
+				A69AD8741D50CFEE0099020C /* Shader */,
+			);
+			path = MSVRPlayer;
+			sourceTree = "<group>";
+		};
+		A69AD8651D50CFEE0099020C /* 360Player */ = {
+			isa = PBXGroup;
+			children = (
+				A69AD8661D50CFEE0099020C /* MS360PlayerVC.h */,
+				A69AD8671D50CFEE0099020C /* MS360PlayerVC.m */,
+				A69AD8681D50CFEE0099020C /* MS360PlayerVC.xib */,
+				A69AD8691D50CFEE0099020C /* OpenGL */,
+			);
+			path = 360Player;
+			sourceTree = "<group>";
+		};
+		A69AD8691D50CFEE0099020C /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				A69AD86A1D50CFEE0099020C /* GLProgram.h */,
+				A69AD86B1D50CFEE0099020C /* GLProgram.m */,
+				A69AD86C1D50CFEE0099020C /* MSGLKVC.h */,
+				A69AD86D1D50CFEE0099020C /* MSGLKVC.m */,
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		A69AD86E1D50CFEE0099020C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A69AD86F1D50CFEE0099020C /* MSGenericMenuVC.h */,
+				A69AD8701D50CFEE0099020C /* MSGenericMenuVC.m */,
+				A69AD8711D50CFEE0099020C /* MSMenuVC.h */,
+				A69AD8721D50CFEE0099020C /* MSMenuVC.m */,
+				A69AD8731D50CFEE0099020C /* MSMenuVC.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		A69AD8741D50CFEE0099020C /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				A69AD8751D50CFEE0099020C /* Shader.fsh */,
+				A69AD8761D50CFEE0099020C /* Shader.vsh */,
+			);
+			path = Shader;
 			sourceTree = "<group>";
 		};
 		A6B00A901D50A934005096D0 /* MSEraseImage */ = {
@@ -630,14 +710,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69AD87E1D50CFEE0099020C /* Shader.fsh in Resources */,
 				A6772EEB1D6AADCB008D0B74 /* keep.mp4 in Resources */,
 				A6772EB81D6A98BB008D0B74 /* LaunchScreen.storyboard in Resources */,
 				A63AF19E1D5049F90084CE06 /* MSProgressVC.storyboard in Resources */,
+				A69AD87F1D50CFEE0099020C /* Shader.vsh in Resources */,
 				A6772EB51D6A98BB008D0B74 /* Assets.xcassets in Resources */,
 				A63AF18C1D50490B0084CE06 /* LoadingDots.xib in Resources */,
 				A6FFCA391D509AA200531366 /* cat-video.gif in Resources */,
 				A6772EB31D6A98BB008D0B74 /* Main.storyboard in Resources */,
+				A69AD87D1D50CFEE0099020C /* MSMenuVC.xib in Resources */,
+				A69AD8631D50CFD60099020C /* demo1.mp4 in Resources */,
 				A6B00A981D50A93D005096D0 /* MSEraseImageVC.xib in Resources */,
+				A69AD8781D50CFEE0099020C /* MS360PlayerVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,9 +793,11 @@
 				A6FFCA1F1D50725B00531366 /* CLMLayerAnimation.swift in Sources */,
 				A63AF18D1D50490B0084CE06 /* MapViewController.swift in Sources */,
 				A63AF1901D50490B0084CE06 /* MSScanningVC.m in Sources */,
+				A69AD87A1D50CFEE0099020C /* MSGLKVC.m in Sources */,
 				A6FFCA271D5072CD00531366 /* MSFadingText.swift in Sources */,
 				A6FFCA251D5072B100531366 /* Quote.swift in Sources */,
 				A63AF1891D50490B0084CE06 /* KeepNewFeatrueView.m in Sources */,
+				A69AD87C1D50CFEE0099020C /* MSMenuVC.m in Sources */,
 				A6B00A971D50A93D005096D0 /* MSEraseImageVC.m in Sources */,
 				A6FFCA371D509A7300531366 /* MSGifVC.swift in Sources */,
 				A63AF18F1D50490B0084CE06 /* SonarAnnotationView.swift in Sources */,
@@ -723,10 +810,13 @@
 				A63AF1881D50490B0084CE06 /* KeepAdScrollView.m in Sources */,
 				A63AF18E1D50490B0084CE06 /* Annotation.swift in Sources */,
 				A6772EAA1D6A98BB008D0B74 /* main.m in Sources */,
+				A69AD8791D50CFEE0099020C /* GLProgram.m in Sources */,
 				A63AF1861D50490B0084CE06 /* KeepNewFeatureViewController.m in Sources */,
 				A6FFCA2A1D50734A00531366 /* SwiftExtenstions.swift in Sources */,
 				A6FFCA301D5073FC00531366 /* AppDelegate.m in Sources */,
+				A69AD8771D50CFEE0099020C /* MS360PlayerVC.m in Sources */,
 				A63AF1981D5049810084CE06 /* ProgressView.swift in Sources */,
+				A69AD87B1D50CFEE0099020C /* MSGenericMenuVC.m in Sources */,
 				A6FFCA221D5072AA00531366 /* CharacterLabel.swift in Sources */,
 				A6FFCA231D5072AA00531366 /* FadingLabel.swift in Sources */,
 				A6FFCA311D5073FC00531366 /* ViewController.m in Sources */,
