@@ -99,5 +99,4 @@ class LoadingDots: UIView {
     func applicationDidBecomeActive(notification: NSNotification) {
         startAnimation()
     }
-    
 }

@@ -17,11 +17,13 @@ class MSLoadingDotsVC: UIViewController {
     // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.orangeColor()
+        
         // Do any additional setup after loading the view, typically from a nib.
         // Set initial loading view.
         loadingView = LoadingDots(frame: CGRectMake(0, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame)))
         self.view.addSubview(loadingView!)
-        loadingView!.startAnimation()
         
         // Tap Dismiss
         let singleFingerTwo = UITapGestureRecognizer(target: self, action: #selector(dismiss))
