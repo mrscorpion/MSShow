@@ -12,6 +12,7 @@
 #import "KeepNewFeatureViewController.h"
 #import "MSShow-Swift.h"
 
+#define kSectionHeight 30
 static NSString *const cellId = @"cellId";
 
 @interface ViewController ()
@@ -21,6 +22,7 @@ UITableViewDataSource
 >
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *data;
+@property (nonatomic, strong) NSArray *titleData;
 @end
 
 @implementation ViewController
@@ -55,6 +57,14 @@ UITableViewDataSource
     }
     return _data;
 }
+- (NSArray *)titleData
+{
+    if (!_titleData) {
+        _titleData = @[@"chapter1", @"chapter2"];
+    }
+    return _titleData;
+}
+
 
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -71,7 +81,16 @@ UITableViewDataSource
     cell.textLabel.text = self.data[indexPath.section][indexPath.row];
     return cell;
 }
+
 #pragma mark - UITableViewDelegate
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return kSectionHeight;
+}
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    return self.titleData[section];
+}
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     switch (indexPath.section)
