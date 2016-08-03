@@ -2,12 +2,12 @@
 //  ZFVoteView.m
 //  ZFVoteViewDemo
 //
-//  Created by MAC_PRO on 16/8/19.
-//  Copyright © 2016年 ZFbory. All rights reserved.
+//  Created by mr.scorpion on 16/8/19.
+//  Copyright © 2016年 mr.scorpion. All rights reserved.
 //
 
 #import "ZFVoteView.h"
-#import "ZFConfig.h"
+//#import "ZFConfig.h"
 #import "ZFPercentBar.h"
 #import "UIView+Extension.h"
 

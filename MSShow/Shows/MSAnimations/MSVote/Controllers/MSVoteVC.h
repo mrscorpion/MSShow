@@ -1,13 +1,15 @@
 //
-//  ZFVoteTableView.h
+//  MSVoteVC.h
 //  ZFVoteViewDemo
 //
-//  Created by mr.scorpion on 16/8/22.
+//  Created by mr.scorpion on 16/8/18.
 //  Copyright © 2016年 mr.scorpion. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ZFVoteTableView : UITableView
+@interface MSVoteVC : UIViewController
+
 
 @end
+

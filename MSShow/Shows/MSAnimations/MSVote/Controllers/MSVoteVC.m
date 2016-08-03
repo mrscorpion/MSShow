@@ -1,21 +1,22 @@
 //
-//  ViewController.m
+//  MSVoteVC.m
 //  ZFVoteViewDemo
 //
-//  Created by MAC_PRO on 16/8/18.
-//  Copyright © 2016年 ZFbory. All rights reserved.
+//  Created by mr.scorpion on 16/8/18.
+//  Copyright © 2016年 mr.scorpion. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "MJExtension.h"
+//#import "MJExtension.h"
+#import <MJExtension/MJExtension.h>
 #import "ZFVoteModel.h"
 #import "ZFVoteCell.h"
-#import "ZFConfig.h"
+//#import "ZFConfig.h"
 #import "UIView+Extension.h"
 #import "ZFVoteView.h"
 #import "ZFVoteTableView.h"
 
-@interface ViewController ()
+@interface MSVoteVC ()
 <
 UITableViewDelegate,
 UITableViewDataSource
@@ -24,7 +25,7 @@ UITableViewDataSource
 @property (nonatomic, strong) UITableView *tableView;
 @end
 
-@implementation ViewController
+@implementation MSVoteVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -48,7 +49,7 @@ UITableViewDataSource
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"abc.plist" ofType:nil];
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"VoteList.plist" ofType:nil];
         
         NSDictionary *votesDic = [NSDictionary dictionaryWithContentsOfFile:path];
         

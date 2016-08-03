@@ -2,8 +2,8 @@
 //  ZFVoteCell.h
 //  ZFVoteViewDemo
 //
-//  Created by MAC_PRO on 16/8/18.
-//  Copyright © 2016年 ZFbory. All rights reserved.
+//  Created by mr.scorpion on 16/8/18.
+//  Copyright © 2016年 mr.scorpion. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
