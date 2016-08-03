@@ -1,23 +1,23 @@
 //
-//  ZFVoteCell.m
-//  ZFVoteViewDemo
+//  MSVoteCell.m
+//  MSVoteViewDemo
 //
 //  Created by mr.scorpion on 16/8/18.
 //  Copyright © 2016年 mr.scorpion. All rights reserved.
 //
 
-#import "ZFVoteCell.h"
-//#import "ZFConfig.h"
+#import "MSVoteCell.h"
+//#import "MSConfig.h"
 #import "UIView+Extension.h"
-#import "ZFVoteView.h"
+#import "MSVoteView.h"
 
-@interface ZFVoteCell ()
+@interface MSVoteCell ()
 
-@property (nonatomic,weak) ZFVoteView *voteView;
+@property (nonatomic,weak) MSVoteView *voteView;
 
 @end
 
-@implementation ZFVoteCell
+@implementation MSVoteCell
 
 -(instancetype)initWithStyle:(UITableViewCellStyle)style
              reuseIdentifier:(NSString *)reuseIdentifier{
@@ -30,7 +30,7 @@
         self.selectionStyle = UITableViewCellSelectionStyleNone;
         self.layer.borderColor = [UIColor lightGrayColor].CGColor;
         self.layer.borderWidth = 0.5;
-        self.layer.cornerRadius = ZFCornerRadius;
+        self.layer.cornerRadius = MSCornerRadius;
         self.layer.masksToBounds = YES;
         
         
@@ -42,7 +42,7 @@
 
 -(void)setupVoteView{
     
-    ZFVoteView *voteView = [[ZFVoteView alloc]initWithFrame:self.bounds
+    MSVoteView *voteView = [[MSVoteView alloc]initWithFrame:self.bounds
                                                    voteView:nil];
     self.voteView = voteView;
     
@@ -57,7 +57,7 @@
 }
 
 
--(void)setVoteModel:(ZFVoteModel *)voteModel{
+-(void)setVoteModel:(MSVoteModel *)voteModel{
 
     _voteModel = voteModel;
     
@@ -73,16 +73,16 @@
 
 -(void)setFrame:(CGRect)frame{
     
-        if (frame.size.width == ZFVoteTableViewMax_W) {//初始化就设置cell的内边距
+        if (frame.size.width == MSVoteTableViewMax_W) {//初始化就设置cell的内边距
             
             frame = UIEdgeInsetsInsetRect(frame,
-                                          UIEdgeInsetsMake(ZFVoteCellTopBottomInset,
-                                                           ZFVoteCellLeftRightInset,
-                                                           ZFVoteCellTopBottomInset,
-                                                           ZFVoteCellLeftRightInset));
+                                          UIEdgeInsetsMake(MSVoteCellTopBottomInset,
+                                                           MSVoteCellLeftRightInset,
+                                                           MSVoteCellTopBottomInset,
+                                                           MSVoteCellLeftRightInset));
         }else{//重复利用的时候改变它的x值
             
-            frame.origin.x += ZFVoteCellLeftRightInset;
+            frame.origin.x += MSVoteCellLeftRightInset;
         }
     [super setFrame:frame];
 }

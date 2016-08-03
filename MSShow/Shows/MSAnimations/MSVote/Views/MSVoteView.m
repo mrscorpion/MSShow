@@ -1,17 +1,17 @@
 //
-//  ZFVoteView.m
-//  ZFVoteViewDemo
+//  MSVoteView.m
+//  MSVoteViewDemo
 //
 //  Created by mr.scorpion on 16/8/19.
 //  Copyright © 2016年 mr.scorpion. All rights reserved.
 //
 
-#import "ZFVoteView.h"
-//#import "ZFConfig.h"
-#import "ZFPercentBar.h"
+#import "MSVoteView.h"
+//#import "MSConfig.h"
+#import "MSPercentBar.h"
 #import "UIView+Extension.h"
 
-@interface ZFVoteView ()
+@interface MSVoteView ()
 
 @property (nonatomic,weak) UILabel *voteLabel;
 
@@ -19,18 +19,18 @@
 
 @property (nonatomic,weak) UIImageView *thumbUpView;
 
-@property (nonatomic,weak) ZFPercentBar *bar;
+@property (nonatomic,weak) MSPercentBar *bar;
 @end
 
-@implementation ZFVoteView
+@implementation MSVoteView
 
--(instancetype)initWithFrame:(CGRect)frame voteView:(ZFVoteModel *)voteModel{
+-(instancetype)initWithFrame:(CGRect)frame voteView:(MSVoteModel *)voteModel{
     
     if (self = [super initWithFrame:frame]) {
         
         self.backgroundColor = [UIColor whiteColor];
 
-        self.layer.cornerRadius = ZFCornerRadius;
+        self.layer.cornerRadius = MSCornerRadius;
         
         self.layer.shadowOffset = CGSizeMake(-2.0, 0.0);
         
@@ -52,7 +52,7 @@
 
 -(void)initSubviews{
 
-    ZFPercentBar *bar = [[ZFPercentBar alloc]initWithFrame:self.bounds];
+    MSPercentBar *bar = [[MSPercentBar alloc]initWithFrame:self.bounds];
     
     self.bar = bar;
     [self addSubview:bar];
@@ -92,20 +92,20 @@
 
     self.bar.frame = self.bounds;
     
-    self.percentLable.x = ZFVoteTableViewMax_W - percentLable_W - thumbUpView_WH - 60;
+    self.percentLable.x = MSVoteTableViewMax_W - percentLable_W - thumbUpView_WH - 60;
     self.percentLable.y = 0;
     self.percentLable.width = percentLable_W;
     self.percentLable.height = self.height;
     
     
-    self.thumbUpView.x = ZFVoteTableViewMax_W - thumbUpView_WH - 45;
+    self.thumbUpView.x = MSVoteTableViewMax_W - thumbUpView_WH - 45;
     self.thumbUpView.width = thumbUpView_WH;
     self.thumbUpView.height = thumbUpView_WH;
     self.thumbUpView.centerY = self.height * 0.5;
     
 
     self.voteLabel.height = self.height;
-    self.voteLabel.x = ZFVoteCellLeftRightInset;
+    self.voteLabel.x = MSVoteCellLeftRightInset;
     self.voteLabel.y = 0;
     self.voteLabel.width = self.width -(percentLable_W + thumbUpView_WH + 50);
     
@@ -141,7 +141,7 @@
 }
 
 
--(void)setVoteModel:(ZFVoteModel *)voteModel{
+-(void)setVoteModel:(MSVoteModel *)voteModel{
     
     _voteModel = voteModel;
     
@@ -149,13 +149,13 @@
     
     self.percentLable.text = [NSString stringWithFormat:@"%.f%%",([_voteModel.votes floatValue] / [_voteModel.totalVotes floatValue] * 100)];
     
-    self.percentLable.textColor = _voteModel.isselected?ZFBlueColor:[UIColor lightGrayColor];
+    self.percentLable.textColor = _voteModel.isselected?MSBlueColor:[UIColor lightGrayColor];
     
     self.thumbUpView.image = _voteModel.isselected?[UIImage imageNamed:@"Like-Blue"]:[UIImage imageNamed:@"Like-PlaceHold"];
     
     if (_voteModel.isvote) {//自己有投票
 
-        self.bar.foregroundColor = _voteModel.isselected?ZFBlueColor:ZFlightBlueColor;
+        self.bar.foregroundColor = _voteModel.isselected?MSBlueColor:MSlightBlueColor;
         
         self.bar.percentage = ([_voteModel.votes floatValue] / [_voteModel.totalVotes floatValue] * 100);
 

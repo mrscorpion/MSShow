@@ -1,6 +1,6 @@
 //
 //  MSVoteVC.m
-//  ZFVoteViewDemo
+//  MSVoteViewDemo
 //
 //  Created by mr.scorpion on 16/8/18.
 //  Copyright © 2016年 mr.scorpion. All rights reserved.
@@ -9,12 +9,12 @@
 #import "ViewController.h"
 //#import "MJExtension.h"
 #import <MJExtension/MJExtension.h>
-#import "ZFVoteModel.h"
-#import "ZFVoteCell.h"
-//#import "ZFConfig.h"
+#import "MSVoteModel.h"
+#import "MSVoteCell.h"
+//#import "MSConfig.h"
 #import "UIView+Extension.h"
-#import "ZFVoteView.h"
-#import "ZFVoteTableView.h"
+#import "MSVoteView.h"
+#import "MSVoteTableView.h"
 
 @interface MSVoteVC ()
 <
@@ -26,14 +26,15 @@ UITableViewDataSource
 @end
 
 @implementation MSVoteVC
-
-- (void)viewDidLoad {
+#pragma mark - View Life Cycle
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
     [self loadNewData];
     [self setupTableView];
 }
-
+#pragma mark - Lazy Load
 - (NSMutableArray *)list
 {
     if (!_list) {
@@ -42,33 +43,20 @@ UITableViewDataSource
     }
     return _list;
 }
--(void)loadNewData{
-
-    //模拟延迟加载
+- (void)loadNewData
+{
     __weak typeof(self) weakSelf = self;
-    
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        
         NSString *path = [[NSBundle mainBundle] pathForResource:@"VoteList.plist" ofType:nil];
-        
         NSDictionary *votesDic = [NSDictionary dictionaryWithContentsOfFile:path];
-        
-        weakSelf.list = [ZFVoteModel mj_objectArrayWithKeyValuesArray:votesDic[@"data"][@"list"]];
-        
+        weakSelf.list = [MSVoteModel mj_objectArrayWithKeyValuesArray:votesDic[@"data"][@"list"]];
         [weakSelf.tableView reloadData];
-   
     });
     
 }
--(void)setupTableView{
-
-
-    ZFVoteTableView *tableVew = [[ZFVoteTableView alloc]initWithFrame:CGRectMake(20,
-                                                                                 100,
-                                                                                 ZFVoteTableViewMax_W,
-                                                                                 400)//这里最好是得到数据算出的总高度
-                                                                style:UITableViewStylePlain];
-    
+- (void)setupTableView
+{
+    MSVoteTableView *tableVew = [[MSVoteTableView alloc]initWithFrame:CGRectMake(20, 100, MSVoteTableViewMax_W, 400) style:UITableViewStylePlain]; // 这里最好是得到数据算出的总高度
     tableVew.delegate = self;
     tableVew.dataSource = self;
     self.tableView = tableVew;
@@ -77,26 +65,22 @@ UITableViewDataSource
 }
 
 
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
     return self.list.count;
-    
 }
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 
-
-
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-
-    ZFVoteModel *voteModel = self.list[indexPath.row];
+    MSVoteModel *voteModel = self.list[indexPath.row];
     
-    static NSString *ZFVoteCellIdentifier = @"ZFVoteCellIdentifier";
+    static NSString *MSVoteCellIdentifier = @"MSVoteCellIdentifier";
     
-    ZFVoteCell *cell = [tableView dequeueReusableCellWithIdentifier:ZFVoteCellIdentifier];
+    MSVoteCell *cell = [tableView dequeueReusableCellWithIdentifier:MSVoteCellIdentifier];
     
     if (!cell) {
         
-        cell = [[ZFVoteCell alloc]initWithStyle:UITableViewCellStyleDefault
-                                reuseIdentifier:ZFVoteCellIdentifier];
+        cell = [[MSVoteCell alloc]initWithStyle:UITableViewCellStyleDefault
+                                reuseIdentifier:MSVoteCellIdentifier];
     }
     
     cell.voteModel = voteModel;
@@ -107,7 +91,7 @@ UITableViewDataSource
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    ZFVoteModel *voteModel = self.list[indexPath.row];
+    MSVoteModel *voteModel = self.list[indexPath.row];
     
     return voteModel.voteCell_H;
     
@@ -118,15 +102,15 @@ UITableViewDataSource
     [self refreshDataAtIndexPath:indexPath];//刷新数据
     
     
-    ZFVoteModel *voteModel = self.list[indexPath.row];
+    MSVoteModel *voteModel = self.list[indexPath.row];
     
-    ZFVoteCell *selectedCell = [_tableView cellForRowAtIndexPath:indexPath];
+    MSVoteCell *selectedCell = [_tableView cellForRowAtIndexPath:indexPath];
     if (indexPath.row == 0) {
         [selectedCell thumbUpstartAnimation];
         return;
     }
 
-    ZFVoteView *voteView = [[ZFVoteView alloc]initWithFrame:selectedCell.frame
+    MSVoteView *voteView = [[MSVoteView alloc]initWithFrame:selectedCell.frame
                                                    voteView:voteModel];
     voteView.layer.masksToBounds = NO;
     [self.tableView addSubview:voteView];
@@ -171,9 +155,9 @@ UITableViewDataSource
 #pragma mark - 模拟刷新数据
 -(void)refreshDataAtIndexPath:(NSIndexPath *)indexPath{
     
-    ZFVoteModel *voteModel = self.list[indexPath.row];
+    MSVoteModel *voteModel = self.list[indexPath.row];
     
-    [self.list enumerateObjectsUsingBlock:^(ZFVoteModel *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    [self.list enumerateObjectsUsingBlock:^(MSVoteModel *obj, NSUInteger idx, BOOL * _Nonnull stop) {
         if (voteModel.isselected) {//说明是取消选中
             obj.isvote = NO;
             if (obj == voteModel) {

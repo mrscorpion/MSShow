@@ -1,6 +1,6 @@
 //
-//  ZFVoteModel.h
-//  ZFVoteViewDemo
+//  MSVoteModel.h
+//  MSVoteViewDemo
 //
 //  Created by mr.scorpion on 16/8/18.
 //  Copyright © 2016年 mr.scorpion. All rights reserved.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface ZFVoteModel : NSObject
+@interface MSVoteModel : NSObject
 
 /**投票数量*/
 @property (nonatomic, strong) NSNumber *votes;

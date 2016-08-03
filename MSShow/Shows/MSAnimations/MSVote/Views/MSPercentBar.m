@@ -1,16 +1,16 @@
 //
-//  ZFPercentBar.m
-//  ZFVoteViewDemo
+//  MSPercentBar.m
+//  MSVoteViewDemo
 //
 //  Created by mr.scorpion on 16/8/18.
 //  Copyright © 2016年 mr.scorpion. All rights reserved.
 //
 
-#import "ZFPercentBar.h"
+#import "MSPercentBar.h"
 
 #import <QuartzCore/QuartzCore.h>
 
-@interface ZFPercentBar ()
+@interface MSPercentBar ()
 
 @property (nonatomic, assign) BOOL animated;
 
@@ -18,7 +18,7 @@
 
 @end
 
-@implementation ZFPercentBar
+@implementation MSPercentBar
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];

@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A6194F571D51C93000339993 /* MSVoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6194F561D51C93000339993 /* MSVoteVC.m */; };
-		A6194F5A1D51C96B00339993 /* ZFVoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6194F591D51C96B00339993 /* ZFVoteModel.m */; };
-		A6194F651D51C98000339993 /* ZFPercentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A6194F5C1D51C98000339993 /* ZFPercentBar.m */; };
+		A6194F5A1D51C96B00339993 /* MSVoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6194F591D51C96B00339993 /* MSVoteModel.m */; };
+		A6194F651D51C98000339993 /* MSPercentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A6194F5C1D51C98000339993 /* MSPercentBar.m */; };
 		A6194F661D51C98000339993 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A6194F5E1D51C98000339993 /* UIView+Extension.m */; };
-		A6194F671D51C98000339993 /* ZFVoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6194F601D51C98000339993 /* ZFVoteCell.m */; };
-		A6194F681D51C98000339993 /* ZFVoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6194F621D51C98000339993 /* ZFVoteView.m */; };
-		A6194F691D51C98000339993 /* ZFVoteTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6194F641D51C98000339993 /* ZFVoteTableView.m */; };
+		A6194F671D51C98000339993 /* MSVoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6194F601D51C98000339993 /* MSVoteCell.m */; };
+		A6194F681D51C98000339993 /* MSVoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6194F621D51C98000339993 /* MSVoteView.m */; };
+		A6194F691D51C98000339993 /* MSVoteTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6194F641D51C98000339993 /* MSVoteTableView.m */; };
 		A6194F6B1D51CE4B00339993 /* VoteList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6194F6A1D51CE4B00339993 /* VoteList.plist */; };
 		A63AF1861D50490B0084CE06 /* KeepNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1601D50490B0084CE06 /* KeepNewFeatureViewController.m */; };
 		A63AF1871D50490B0084CE06 /* KeepAdLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AF1631D50490B0084CE06 /* KeepAdLabel.m */; };
@@ -80,18 +80,18 @@
 		A6194F4C1D51C88A00339993 /* MSShowPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSShowPrefixHeader.pch; sourceTree = "<group>"; };
 		A6194F551D51C93000339993 /* MSVoteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVoteVC.h; sourceTree = "<group>"; };
 		A6194F561D51C93000339993 /* MSVoteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVoteVC.m; sourceTree = "<group>"; };
-		A6194F581D51C96B00339993 /* ZFVoteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVoteModel.h; sourceTree = "<group>"; };
-		A6194F591D51C96B00339993 /* ZFVoteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVoteModel.m; sourceTree = "<group>"; };
-		A6194F5B1D51C98000339993 /* ZFPercentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPercentBar.h; sourceTree = "<group>"; };
-		A6194F5C1D51C98000339993 /* ZFPercentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPercentBar.m; sourceTree = "<group>"; };
-		A6194F5D1D51C98000339993 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		A6194F5E1D51C98000339993 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		A6194F5F1D51C98000339993 /* ZFVoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVoteCell.h; sourceTree = "<group>"; };
-		A6194F601D51C98000339993 /* ZFVoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVoteCell.m; sourceTree = "<group>"; };
-		A6194F611D51C98000339993 /* ZFVoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVoteView.h; sourceTree = "<group>"; };
-		A6194F621D51C98000339993 /* ZFVoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVoteView.m; sourceTree = "<group>"; };
-		A6194F631D51C98000339993 /* ZFVoteTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVoteTableView.h; sourceTree = "<group>"; };
-		A6194F641D51C98000339993 /* ZFVoteTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVoteTableView.m; sourceTree = "<group>"; };
+		A6194F581D51C96B00339993 /* MSVoteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVoteModel.h; sourceTree = "<group>"; };
+		A6194F591D51C96B00339993 /* MSVoteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVoteModel.m; sourceTree = "<group>"; };
+		A6194F5B1D51C98000339993 /* MSPercentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPercentBar.h; sourceTree = "<group>"; };
+		A6194F5C1D51C98000339993 /* MSPercentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPercentBar.m; sourceTree = "<group>"; };
+		A6194F5D1D51C98000339993 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "../MSAnimations/MSVote/Views/UIView+Extension.h"; sourceTree = "<group>"; };
+		A6194F5E1D51C98000339993 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "../MSAnimations/MSVote/Views/UIView+Extension.m"; sourceTree = "<group>"; };
+		A6194F5F1D51C98000339993 /* MSVoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVoteCell.h; sourceTree = "<group>"; };
+		A6194F601D51C98000339993 /* MSVoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVoteCell.m; sourceTree = "<group>"; };
+		A6194F611D51C98000339993 /* MSVoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVoteView.h; sourceTree = "<group>"; };
+		A6194F621D51C98000339993 /* MSVoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVoteView.m; sourceTree = "<group>"; };
+		A6194F631D51C98000339993 /* MSVoteTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVoteTableView.h; sourceTree = "<group>"; };
+		A6194F641D51C98000339993 /* MSVoteTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVoteTableView.m; sourceTree = "<group>"; };
 		A6194F6A1D51CE4B00339993 /* VoteList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VoteList.plist; sourceTree = "<group>"; };
 		A63AF15F1D50490B0084CE06 /* KeepNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepNewFeatureViewController.h; sourceTree = "<group>"; };
 		A63AF1601D50490B0084CE06 /* KeepNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepNewFeatureViewController.m; sourceTree = "<group>"; };
@@ -220,8 +220,8 @@
 		A6194F531D51C90F00339993 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A6194F581D51C96B00339993 /* ZFVoteModel.h */,
-				A6194F591D51C96B00339993 /* ZFVoteModel.m */,
+				A6194F581D51C96B00339993 /* MSVoteModel.h */,
+				A6194F591D51C96B00339993 /* MSVoteModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -229,16 +229,14 @@
 		A6194F541D51C90F00339993 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A6194F5B1D51C98000339993 /* ZFPercentBar.h */,
-				A6194F5C1D51C98000339993 /* ZFPercentBar.m */,
-				A6194F5D1D51C98000339993 /* UIView+Extension.h */,
-				A6194F5E1D51C98000339993 /* UIView+Extension.m */,
-				A6194F5F1D51C98000339993 /* ZFVoteCell.h */,
-				A6194F601D51C98000339993 /* ZFVoteCell.m */,
-				A6194F611D51C98000339993 /* ZFVoteView.h */,
-				A6194F621D51C98000339993 /* ZFVoteView.m */,
-				A6194F631D51C98000339993 /* ZFVoteTableView.h */,
-				A6194F641D51C98000339993 /* ZFVoteTableView.m */,
+				A6194F5B1D51C98000339993 /* MSPercentBar.h */,
+				A6194F5C1D51C98000339993 /* MSPercentBar.m */,
+				A6194F5F1D51C98000339993 /* MSVoteCell.h */,
+				A6194F601D51C98000339993 /* MSVoteCell.m */,
+				A6194F611D51C98000339993 /* MSVoteView.h */,
+				A6194F621D51C98000339993 /* MSVoteView.m */,
+				A6194F631D51C98000339993 /* MSVoteTableView.h */,
+				A6194F641D51C98000339993 /* MSVoteTableView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -649,6 +647,8 @@
 			isa = PBXGroup;
 			children = (
 				A6FFCA291D50734A00531366 /* SwiftExtenstions.swift */,
+				A6194F5D1D51C98000339993 /* UIView+Extension.h */,
+				A6194F5E1D51C98000339993 /* UIView+Extension.m */,
 			);
 			path = MSExtentions;
 			sourceTree = "<group>";
@@ -862,8 +862,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A63AF18B1D50490B0084CE06 /* LoadingDots.swift in Sources */,
-				A6194F691D51C98000339993 /* ZFVoteTableView.m in Sources */,
-				A6194F5A1D51C96B00339993 /* ZFVoteModel.m in Sources */,
+				A6194F691D51C98000339993 /* MSVoteTableView.m in Sources */,
+				A6194F5A1D51C96B00339993 /* MSVoteModel.m in Sources */,
 				A63AF18A1D50490B0084CE06 /* MSLoadingDotsVC.swift in Sources */,
 				A6FFCA1F1D50725B00531366 /* CLMLayerAnimation.swift in Sources */,
 				A63AF18D1D50490B0084CE06 /* MapViewController.swift in Sources */,
@@ -877,7 +877,7 @@
 				A6FFCA371D509A7300531366 /* MSGifVC.swift in Sources */,
 				A63AF18F1D50490B0084CE06 /* SonarAnnotationView.swift in Sources */,
 				A63AF1921D50490B0084CE06 /* MSGuideView.m in Sources */,
-				A6194F651D51C98000339993 /* ZFPercentBar.m in Sources */,
+				A6194F651D51C98000339993 /* MSPercentBar.m in Sources */,
 				A63AF1911D50490B0084CE06 /* MSSpotlightVC.m in Sources */,
 				A63AF1961D50493B0084CE06 /* MSProgressVC.swift in Sources */,
 				A6194F661D51C98000339993 /* UIView+Extension.m in Sources */,
@@ -892,8 +892,8 @@
 				A6FFCA2A1D50734A00531366 /* SwiftExtenstions.swift in Sources */,
 				A6FFCA301D5073FC00531366 /* AppDelegate.m in Sources */,
 				A69AD8771D50CFEE0099020C /* MS360PlayerVC.m in Sources */,
-				A6194F681D51C98000339993 /* ZFVoteView.m in Sources */,
-				A6194F671D51C98000339993 /* ZFVoteCell.m in Sources */,
+				A6194F681D51C98000339993 /* MSVoteView.m in Sources */,
+				A6194F671D51C98000339993 /* MSVoteCell.m in Sources */,
 				A6194F571D51C93000339993 /* MSVoteVC.m in Sources */,
 				A63AF1981D5049810084CE06 /* ProgressView.swift in Sources */,
 				A69AD87B1D50CFEE0099020C /* MSGenericMenuVC.m in Sources */,
