@@ -13,6 +13,7 @@
 ![LoadingDotsAnimation](LoadingDotsAnimation.gif)
 
 ### 聚光灯效果用户引导
+![MSSpotlight](MSSpotlight.gif)
 
 ### 搜索动画
 
