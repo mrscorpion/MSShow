@@ -9,6 +9,9 @@
 ### 地图定位动画(MapLocationAnimation)
 ![MapLocationAnimation](MapLocationAnimation.gif)
 
+### 文字特效
+![MSFadingText](MSFadingText.gif)
+
 ### 加载动画(LoadingDotsAnimation)
 ![LoadingDotsAnimation](LoadingDotsAnimation.gif)
 
