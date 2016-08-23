@@ -15,6 +15,9 @@
 ### 加载动画(LoadingDotsAnimation)
 ![LoadingDotsAnimation](LoadingDotsAnimation.gif)
 
+### 播放Gif动图
+![MSGif](MSGif.gif)
+
 ### 聚光灯效果用户引导
 ![MSSpotlight](MSSpotlight.gif)
 
